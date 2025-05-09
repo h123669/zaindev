@@ -54,7 +54,7 @@ export default function Cards() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
             viewport={{  amount: 0.2 }}
-            className="relative max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm"
+            className="relative max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm "
           >
             <Image
               src={service.image}
@@ -74,11 +74,11 @@ export default function Cards() {
                 <span className="bg-amber-100 rounded-3xl p-2 text-gray-900">
                   {service.tag}
                 </span>
-                <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 ">
                   {service.title}
                 </h5>
               </span>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-700 ">
                 {service.description}
               </p>
             </div>
