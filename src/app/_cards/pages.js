@@ -54,7 +54,7 @@ export default function Cards() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
             viewport={{  amount: 0.2 }}
-            className="relative max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+            className="relative max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm"
           >
             <Image
               src={service.image}
